@@ -1,0 +1,43 @@
+body {
+    background-color: #793654;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #717744;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 16px;
+    background-color: #717744;
+    padding: 20px;
+}
+
+legend {
+    color: #EFF1ED;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+input {
+    display: block;
+    background-color: #DEB887;
+    color: #4B0082;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    color: #4B0082;
+    text-align: center;
+}
