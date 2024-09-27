@@ -51,7 +51,7 @@ if(isset($_POST['btnMostraVinho'])){
             <input type="text" name="nome" id="nome" placeholder="Insira o nome do Vinho:" required></br>
             <input type="text" name="tipo" id="tipo" placeholder="Insira o tipo do Vinho:" required></br>
             <input type="text" name="preco" id="preco" placeholder="Insira o preço do Vinho:" required></br>
-            <input type="text" name="safra" id="safra" placeholder="Insira a safra do Vinho:" required></br></br>
+            <input type="date" name="safra" id="safra" placeholder="Insira a safra do Vinho:" required></br></br>
             <input type="submit" name="btnCadastrar" id="btnCadastrar" value="Cadastrar">
             <input type="submit" name="btnVerificaPreco" id="btnVerificaPreco" value="Verificar Preço">
             <input type="submit" name="btnMostraVinho" id="btnMostraVinho" value="Mostrar Vinho">
